@@ -1,13 +1,37 @@
 body {
     text-align: center;
-	background-color:blue;
-	color:white;
+
+
 }
 .head{
-	
+    background-color:#37c3ee;
 	width:100%;
-	height:auto;
+    color:white;
 
+
+}
+hr{
+border:2px solid white;
+}
+.udacity-text {
+            color: #fff;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size:40px;
+            text-align: center;
+        }
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+	width:auto;
+	height:50px;
+	border-radius:4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	cursor:pointer;
 }
 h1 {
     font-family: Monoton;
@@ -45,7 +69,13 @@ td {
 }
 
 input[type=number] {
-    width: 6em;
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 #sizePicker{
 border-radius:20px;
